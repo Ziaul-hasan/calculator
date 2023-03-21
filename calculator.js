@@ -25,7 +25,7 @@ document.getElementById('calculator').addEventListener('click', function(e){
     else if (numberBtn == 'log()'){
         inputField.value = Math.log10(inputField.value);
     }
-    else if (numberBtn == '%'){
+    else if (numberBtn === '%'){
         inputField.value = parseFloat(inputField.value)/100;
     }
     else if (numberBtn == 'tan()'){
