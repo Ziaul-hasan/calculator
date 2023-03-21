@@ -42,3 +42,21 @@ h1{
     box-shadow: 2px 2px 4px lightgray;
     cursor: pointer;
 }
+
+@media screen and (max-width: 668px) {
+    h1{
+        font-size: 30px;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #display{
+        width: 85%;
+    }
+    .btn{
+        font-size: 16px;
+        width: 23px;
+        height: 20px;
+    }
+}
